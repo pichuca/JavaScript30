@@ -21,7 +21,7 @@
             </div>
             <div data-key="70" class="key">
                 <kbd>F</kbd>
-                <span class="sound">kick</span>
+                <span class="sound">openhat</span>
             </div>
             <div data-key="71" class="key">
                 <kbd>G</kbd>
@@ -75,7 +75,7 @@
 
         const keys = document.querySelectorAll('.key');
         keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-        
+
         window.addEventListener('keydown', playSound);
     </script>
 </html>
